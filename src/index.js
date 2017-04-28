@@ -1,7 +1,7 @@
 // import './index.css';
+// Importing CSS with WebPack doesn't work until Creator's Update is installed
 
 import numeral from 'numeral';
 
 const courseValue = numeral(1000).format('$0,0.00');
-debugger;
-console.log(`I would pay ${courseValue} for this awesome course!`);
+console.log(`I would pay ${courseValue} for this awesome course!`); // eslint-disable-line no-console
