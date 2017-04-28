@@ -1,5 +1,4 @@
-// import './index.css';
-// Importing CSS with WebPack doesn't work until Creator's Update is installed
+import './index.css';
 
 import numeral from 'numeral';
 
